@@ -110,10 +110,10 @@
 <p align="center"> <img src=https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/model1.JPG height="450"></p>
 - Results
 <p align="center"> <img src=https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/result1.jpg height="450"></p>
-<p align="center"> <img src=https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/result2.jpg height="450"></p>
+<p align="center"> <img src=https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/result2.jpg height="250"></p>
 
-- Summary <br/>
-| Attempt | #1  | #2  |
+- Summary of results<br/>
+Summary Table of Results for various iterations
 
 | Iteration |	Loss | Acc | Sentiment Acc | Precision | Recall | F1 |
 | :-------: | :--: | :-: | :-----------: | :-------: | :----: | :-: |
@@ -126,6 +126,9 @@
 | 210k | 0.82 |	66.23	| 84.19	| 66.03	| 66.22	| 66.09 |
 | 240k | 0.82 |	66.08	| 84.26	| 65.99	| 66.07	| 66.00 |
 | 270k | 0.82 |	66.09	| 84.31	| 66.04	| 66.08	| 66.03 |
+
+Training Time: ~3 hours on Google Colab <br/>
+Best Model: 180k Iteration
 
 ### References:
 
