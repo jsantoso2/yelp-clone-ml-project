@@ -127,8 +127,46 @@ Summary Table of Results for various iterations
 | 240k | 0.82 |	66.08	| 84.26	| 65.99	| 66.07	| 66.00 |
 | 270k | 0.82 |	66.09	| 84.31	| 66.04	| 66.08	| 66.03 |
 
+  - Sentiment Classification Rule
+    - Ratings 1-2: Negative Sentiment, Rating 3: Neutral Sentiment, Ratings 4-5: Positive Sentiment
+
 Training Time: ~3 hours on Google Colab <br/>
 Best Model: 180k Iteration
+
+#### Selected Examples (Good)
+- Example1
+  - Reviews: I absolutely loved the nachos here. I consider myself a nacho connoisseur. These are some of the best I've ever had. Big enough for two people. Interesting variety of nachos available. I love this place so much if possible id open a franchise where I live, in Virginia Beach. A MUST VISIT for us from now on when we go on our yearly Vegas trip!!!!!!
+  - Answer: 5
+  - True Sentiment: Positive
+  - Prediction: 5
+  - Prediction Sentiment: Positive
+- Example2
+  - Reviews: Not too bad! Been to this location several times, still have not loved it yet. The antipasta platter was ok. The mozzarella was good; the brushette had too much pesto; and calamari was not crispy enough. The chicken marsala was ok too. I tasted more of the grill of the chicken than the marsala sauce. The mash potatoes were good. I should have stuck to my usual pasta carrabba. The service is always excellent!
+  - Answer: 3
+  - True Sentiment: Neutral
+  - Prediction: 3
+  - Prediction Sentiment: Neutral
+- Example3
+  - Reviews: I honestly do not understand peoples infatuation with this place. The fries are terrible and the burgers are barely edible. I have tried several In-N-Out Burgers to make a fair assessment, and they're all nasty.
+  - Answer: 1
+  - True Sentiment: Negative
+  - Prediction: 1
+  - Prediction Sentiment: Negative
+
+#### Selected Examples (Bad)
+- Example4
+  - Reviews: We got there for an early dinner. Place didn't look that busy when we arrived. They took about five minutes to great and another five to sit us. I was not impressed by the way place look. Floors were dirty with food. But then I saw waiter cleaning tabla and dumping crumbs on floor. After we sat down waiter left and didn't come back to take our drink order for a long time. We almost got up and left because of how long they took to take our orders. We had the al Pastor mahi fish and mole tacos. They were super good!! I also had a michelada and it was delicious!! Food wise I give them Five stars. But service and cleanliness I give them two stars.
+Next time I'll give the one in Glendale a chance. Hoping food is as good as here but with better service and a more clean environment.
+  - Answer: 4
+  - True Sentiment: Positive
+  - Prediction: 2
+  - Prediction Sentiment: Negative
+- Example5
+  - Reviews: We tried the corned beef sandwich. I'm not the biggest fan of corned beef, but when I get a hankering for it, I need the real thing. The sandwich is pretty, with swirled pumpernickel bread and cheddar, but the corned beef appears to be the kind that comes in slices or a pack rather than the brisket we're used to. Plus, they fried the meat! We'll search some more for REAL corned beef.
+  - Answer: 2
+  - True Sentiment: Negative
+  - Prediction: 3
+  - Prediction Sentiment: Neutral
 
 ### References:
 
