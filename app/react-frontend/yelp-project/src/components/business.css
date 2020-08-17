@@ -1,0 +1,117 @@
+.marker-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.marker-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+.mapContainer{
+    margin: 20px;
+    object-fit: content;
+}
+
+.mapContainer h4{
+    margin-top: 20px;
+}
+
+.map{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.operatingHours{
+    margin-top: 20px;
+}
+
+.businessCard {
+    margin: 20px;
+}
+
+.businessCardContents {
+    margin: 20px;
+}
+
+.businessCardAmenities{
+    margin-bottom: 20px;
+}
+
+.starsAndReviewCount{
+    display: flex;
+    align-items: center;
+}
+
+.businessCardCategories{
+    display: flex;
+    align-items: center;
+}
+
+.todayClosed{
+    color: red;
+    margin-top: 10px;
+}
+
+.todayOpen{
+    color: green;
+    margin-top: 10px;
+}
+
+.reviewCards{
+    margin: 20px;
+}
+
+.reviewCardContents {
+    margin: 20px;
+}
+
+.reviewCardContentsHeader{
+    display: flex;
+    align-items: center;
+}
+
+.profileIconsReviews svg{
+    width: 25px;
+    height: 25px;
+    fill: #ff8c00;
+    margin-right: 10px;
+}
+
+.reviewAvatar{
+    margin-right: 10px;
+}
+
+.funnyusefulcoolicons{
+    display: flex;
+    align-items: center;
+}
+
+.funnyusefulcoolicons svg{
+    height: "22px"; 
+    width:"22px";
+}
+
+.funnyusefulcoolicons p{
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.starsStyle{
+    object-fit: content;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.attributeList{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    justify-content: space-between; 
+
+}
+
+

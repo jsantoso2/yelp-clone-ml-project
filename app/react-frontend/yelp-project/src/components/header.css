@@ -1,0 +1,79 @@
+.header{
+    height: 10%;
+    background-color: #d32323; 
+}
+
+.header_image {
+    max-height: 60px;
+    margin: 10px;
+    object-fit: 'fill';
+}
+
+.locationSearch{
+    display: flex;
+    margin-right: 20px;
+}
+
+
+.home_container_img{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bg_image{
+    width: 100%;
+}
+
+.bg_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.bg_text2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+}
+
+.home_h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.businessCardHome{
+    margin: 10px;
+}
+
+.businessCardHomeContents{
+    margin: 20px;
+}
+
+.businessCardHomeContents p{
+    margin-top: 10px;
+}
+
+.businessCardHomeHeader{
+    object-fit: content;
+    align-items: center;
+}
+
+.starsReviewCountHome{
+    display: flex;
+}
+
+.starsReviewCountHome img{
+    margin-right: 10px;
+}
+
+.starsStyleHome{
+    object-fit: content;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
