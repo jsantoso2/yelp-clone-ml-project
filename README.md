@@ -112,9 +112,11 @@
 <p align="center"> <img src=https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/result1.jpg height="450"></p>
 <p align="center"> <img src=https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/result2.jpg height="450"></p>
 
-- Summary
+- Summary <br/>
+| Attempt | #1  | #2  |
+
 | Iteration |	Loss | Acc | Sentiment Acc | Precision | Recall | F1 |
-| --------- | ---- | --- | ------------- | --------- | ------ | -- |
+| :-------: | :--: | :-: | :-----------: | :-------: | :----: | :-: |
 | 30k  | 0.83 | 62.75 | 82.11 | 62.49 | 62.74 | 62.58 |
 | 60k	 | 0.80 |	64.40	| 83.25	| 64.27	| 64.39	| 64.28 |
 | 90k  | 0.78 |	65.70	| 84.04	| 65.44	| 65.68	| 65.53 |
