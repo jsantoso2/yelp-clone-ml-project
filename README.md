@@ -53,6 +53,7 @@
 **Yelp clone application**
 - Front end: ReactJS (https://reactjs.org/)
 - Endpoint API: Flask (https://flask.palletsprojects.com/en/1.1.x/)
+- Loading Maps & Geocoding: Mapbox API (https://www.mapbox.com/) 
 - Database: Google Firebase real-time database (https://firebase.google.com/)
 - Flask App deployment: Google App Engine on 1 instance of B4_1G (https://cloud.google.com/appengine)
 - React App deployment: Heroku (https://www.heroku.com/)
