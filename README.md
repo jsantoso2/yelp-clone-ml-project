@@ -11,12 +11,38 @@
 **WARNING! Please close the app after use as it reduces strain on quotas!**
 
 ### Application Screenshots
-<p align="center"> <img src=https://github.com/jsantoso2/License-Plate-Detector-Reader/blob/master/Screenshots/app-1.JPG height="600"></p>
-<p align="center">App Interface 1<p align="center">
-<p align="center"> <img src=https://github.com/jsantoso2/License-Plate-Detector-Reader/blob/master/Screenshots/app-2.JPG height="600"></p>
-<p align="center">App Interface 2<p align="center">
-<p align="center"> <img src=https://github.com/jsantoso2/License-Plate-Detector-Reader/blob/master/Screenshots/app-4.JPG height="600"></p>
-<p align="center">App Interface 3<p align="center">
+<table>
+  <tr>
+    <td>Home Page</td>
+    <td>Business Page</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/capture1.JPG"></td>
+    <td valign="top"><img src="https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/capture2.JPG"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>Users Page</td>
+    <td>Write a Review Page</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/capture3.JPG"></td>
+    <td valign="top"><img src="https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/capture6.JPG"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>Login Page</td>
+    <td>Signup Page</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/capture4.JPG"></td>
+    <td valign="top"><img src="https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/capture5.JPG"></td>
+  </tr>
+</table>
 
 ### Tools/Framework Used
 **BERT Model**
@@ -81,11 +107,13 @@
 
 ### Results
 - Model Architecture
-<p align="center"> <img src=https://github.com/jsantoso2/License-Plate-Detector-Reader/blob/master/Screenshots/results1-1.JPG height="450"></p>
+<p align="center"> <img src=https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/model1.JPG height="450"></p>
 - Results
-<p align="center"> <img src=https://github.com/jsantoso2/License-Plate-Detector-Reader/blob/master/Screenshots/results1-1.JPG height="450"></p>
+<p align="center"> <img src=https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/result1.jpg height="450"></p>
+<p align="center"> <img src=https://github.com/jsantoso2/yelp-clone-ml-project/blob/master/screenshots/result2.jpg height="450"></p>
+
 - Summary
-Iteration	Loss	Acc	Sentiment Acc	Precision	Recall	F1
+| Iteration |	Loss | Acc | Sentiment Acc | Precision | Recall | F1 |
 30k	0.83	62.75	82.11	62.49	62.74	62.58
 60k	0.80	64.40	83.25	64.27	64.39	64.28
 90k	0.78	65.70	84.04	65.44	65.68	65.53
